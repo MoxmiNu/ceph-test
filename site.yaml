@@ -1,0 +1,13 @@
+---
+- name: admin01
+  box: centos/7
+  ram: 512
+  ip: 192.168.150.10
+- name: mon01
+  box: centos/7
+  ram: 512
+  ip: 192.168.150.11
+- name: osd01
+  box: centos/7
+  ram: 512
+  ip: 192.168.150.12

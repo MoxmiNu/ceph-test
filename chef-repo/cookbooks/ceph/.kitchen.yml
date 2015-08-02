@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: jhcook/centos7
+suites:
+  - name: admin01
+    run_list:
+    - recipe[ceph::default]
+    - recipe[ceph::packages]
+    - recipe[ceph::user]
+    - recipe[ceph::ceph-cent7-repo]
+    attributes:
