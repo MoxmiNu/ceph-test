@@ -1,2 +1,2 @@
 # ceph-test
-testing a vagrant / chef testing setup for ceph cookbook
+Making a vagrant / chef testing setup for ceph cookbook
